@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("../node_modules/@angular/material/core/theming/prebuilt/indigo-pink.css");
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+ng2comp-app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+}
